@@ -7,6 +7,10 @@
 
 A tool for generating jQuery plugins boilerplate code
 
+## Install
+
+    $ pip install jquerypluginbp
+
 ## Usage
 
 Define your plugin.json manifest file
@@ -16,6 +20,39 @@ Define your plugin.json manifest file
 You can specify the destination path
 
     $ jquerypluginbp yourmanifest.plugin.json -d destination_path
+
+## Manifest file example
+
+    {
+        "name": "gmap",
+        "title": "jQuery Gmap Plugin",
+        "description": "Convenient jQuery wrapper around Google Maps JavaScript API v3.",
+        "keywords": [
+            "google",
+            "maps",
+            "v3"
+        ],
+        "version": "0.1.0dev",
+        "author": {
+            "name": "Nephila"
+        },
+        "maintainers": [
+            {
+                "name": "Andrea Stagi",
+                "email": "stagi.andrea@gmail.com",
+                "url": "http://github.com/astagi"
+            }
+        ],
+        "licenses": [
+            {
+                "type": "MIT",
+                "url": ""
+            }
+        ],
+        "dependencies": {
+            "jquery": ">=1.4.4"
+        }
+    }
 
 ## Run tests
 
