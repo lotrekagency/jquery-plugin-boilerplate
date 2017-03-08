@@ -9,6 +9,8 @@ A tool for generating jQuery plugins boilerplate code
 
 ## Install
 
+Make sure you have grunt and bower installed globally in your system, then type:
+
     $ pip install jquerypluginbp
 
 ## Usage
