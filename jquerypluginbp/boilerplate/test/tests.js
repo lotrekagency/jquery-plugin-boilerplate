@@ -1,5 +1,5 @@
-module("{{plugin_name}}");
+QUnit.module("{{plugin_name}}");
 
-test( "init test", function( assert ) {
-    assert.expect( 0 );
+QUnit.test( "init test", function( assert ) {
+    assert.ok( true, "this test is fine" );
 });
