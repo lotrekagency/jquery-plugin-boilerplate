@@ -59,6 +59,10 @@ You can specify the destination path
 ## Run tests
 
     $  nosetests --with-coverage --cover-package=jquerypluginbp.core
+    
+## License
+
+MIT © Lotrek
 
 [travis-url]: https://travis-ci.org/nephila/jquerypluginbp
 [travis-image]: http://img.shields.io/travis/nephila/jquerypluginbp.svg
